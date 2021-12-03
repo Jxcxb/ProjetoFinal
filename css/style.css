@@ -1,0 +1,207 @@
+body{
+	font-family: 'Source Code Pro', monospace;
+	color: #1c1c1c;
+}
+
+h1,h2,h3{
+	font-family: 'Source Code Pro', monospace;
+	color: #000000;
+
+}
+
+.botao{
+	color: #000000;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #FFFFFF;
+	font-size: .9em;
+	border-radius: 3px;
+
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #000000;
+}
+
+nav > a {
+	text-decoration: none;
+	color: #42b25f;
+	font-weight: 800;
+	font-size: 32px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../img/agua.webp");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px;
+}
+
+header h2{
+	font-weight: bold;
+	font-size: 80px;
+	color: #FFFFFF;
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 40px;
+	color: #FFFFFF;
+	max-width: 1000px;
+}
+
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#sobre h2 {
+	color: #FFFFFF;
+}
+
+#sobre p {
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
+
+#jogos{
+	display: flex;
+	flex-direction: column;
+	background-color: #42b25f;
+	align-items: center;
+	text-align: center;	
+	padding: 10px 10px 20px 20px;
+	color: #FFFFFF;
+}
+
+#jogos h2 {
+	color: #000000;
+}
+
+#jogos p{
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
+
+#jogos img{
+    width:40px; /* you can use % */
+    height:40px ;
+}
+
+#jogos div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#contato{
+	display: flex;
+	background-color: #FFFFFF;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+footer{
+	text-align: center;
+	background-color: #000000;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+footer a {
+	text-decoration: none;
+	color: #42b25f;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+
+	nav{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	nav ul{
+		flex-direction: row;
+		width: 70%;
+	}
+
+	header{
+		height: 600px;
+		height: 60vh;
+		justify-content: center;
+	}
+
+	#sobre{
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-height: 250px;
+	}
+
+	#jogos{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	#jogos h2{
+		text-align: center;
+		width: 100%;
+
+	}
+
+	#jogos div{
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+
+
+}
