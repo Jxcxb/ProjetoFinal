@@ -19,6 +19,21 @@ h1,h2,h3{
 
 }
 
+.botaoTabuada{
+	color: #000000;
+	text-decoration: none;
+	padding: 10px 10px;
+	background-color: #42b25f;
+	font-size: .9em;
+	border-radius: 3px;
+
+}
+
+#cabeçalhoTabuada a img{
+	height: 20px;
+	align-items: center;
+}
+
 nav{
 	display: flex;
 	flex-direction: column;
@@ -33,7 +48,9 @@ nav > a {
 	font-size: 32px;
 	font-family: 'Source Code Pro', monospace;
 }
-
+nav a:hover{
+	color: #FFFFFF;
+}
 nav ul{
 	display: flex;
 	flex-direction: column;
@@ -54,6 +71,9 @@ nav ul li a{
 	width: 100%;
 	text-decoration: none;
 	color: #FFFFFF;
+}
+nav ul li a:hover{
+	color: #42b25f;
 }
 
 header{
@@ -81,6 +101,73 @@ header p{
 	font-size: 40px;
 	color: #FFFFFF;
 	max-width: 1000px;
+}
+
+#cabeçalho{
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	text-align: center;
+	align-items: center;
+
+}
+
+
+#cabeçalhoTabuada{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 300px;
+	color: #000000;
+	text-align: center;
+	align-items: center;
+}
+
+#cabeçalhoTabuada a{
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+/* Fiz sozinho, tabela */
+
+table{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin: 10px 0px;
+	border-collapse: collapse;
+	width: 100X;
+}
+
+table .titulos{
+	color: #42b25f;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration-style: bold;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+  	text-align: center;
+  	padding: 8px;
+}
+
+#respostas div{
+	padding: 13px;
+	color: black;
+	background-color: green;
+	text-align: center;
+	margin-top: 30px;
+}
+/* */
+
+#respostas h3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #sobre{
@@ -153,7 +240,9 @@ footer a {
 	text-decoration: none;
 	color: #42b25f;
 }
-
+footer a:hover{
+	color: #FFFFFF;
+}
 
 
 
@@ -162,6 +251,8 @@ footer a {
 	nav{
 		flex-direction: row;
 		justify-content: space-around;
+		max-width: 100%;
+		padding: 0;
 	}
 
 	nav ul{
@@ -195,6 +286,16 @@ footer a {
 		width: 100%;
 
 	}
+	#cabeçalhoTabuada{
+		display: flex;
+		max-width: 1000px;
+		flex: 1;
+	}
+
+	#respostas h3{
+		text-align: center;
+		width: 100%;	
+	}
 
 	#jogos div{
 		flex-grow: 1;
@@ -202,6 +303,11 @@ footer a {
 		padding: 0 10px;
 	}
 
-
+	#cabeçalho{
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-height: 250px;
+	}
 
 }

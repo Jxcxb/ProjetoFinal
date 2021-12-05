@@ -7,18 +7,85 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Jogo das tabuadas</title>
 </head>
 <body>
 	<nav>
-		<a href="#">Jacob Costa</a>
+		<a href="index.html">Jacob Costa</a>
 		<ul>
-			<li><a href="#sobre">Sobre</a></li>
-			<li><a href="#jogos">Jogos</a></li>
-			<li><a href="#tabuada">Jogo da tabuada</a></li>
-			<li><a href="#centenas">Jogo das centenas</a></li>
+			<li><a href="index.html#jogos">Jogos</a></li>
+			<li><a href="tabuada.html">Jogo da tabuada</a></li>
+			<li><a href="centenas.html">Jogo das centenas</a></li>
 		</ul>
 	</nav>
 
+	<section id="cabeçalho">
+		<h2>Brincando com a tabuada</h2>
+		<p>Clique sobre o ícone desejada para alterar o resultado da tabuada</p>
+		<div id="cabeçalhoTabuada">
+		<a href="#" class="botaoTabuada" id="rato"> <img src="img/rato.png" alt="Icone de rato"> Rato | 1</a>
+		<a href="#" class="botaoTabuada" id="cachorro"> <img src="img/cachorro.png" alt="Icone de cachorro"> Cachorro | 2</a>
+		<a href="#" class="botaoTabuada" id="borboleta"><img src="img/borboleta.png" alt="Icone de borboleta"> Borboleta | 3</a>
+		<a href="#" class="botaoTabuada" id="pato"> <img src="img/pato.png" alt="Icone de pato"> Pato | 4</a>
+		</div>		
+	</section>
+
+	
+	<table>
+		<tr class="titulos">
+			<th>Escolha</th>
+			<th>Multiplicação</th>
+			<th>Resultado</th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 2 =</th>
+			<th> </th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 3 =</th>
+			<th> </th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 4 =</th>
+			<th> </th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 5 =</th>
+			<th> </th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 6 =</th>
+			<th> </th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 7 =</th>
+			<th> </th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 8 =</th>
+			<th> </th>
+		</tr>
+		<tr>
+			<th></th>
+			<th> x 9 =</th>
+			<th> </th>
+		</tr>
+			
+	</table>
+	
+
+	<footer>
+		<a href="#cabeçalho">Voltar ao topo</a>
+		<p>Desenvolvido por Jacob Costa Silva -  2021</p>
+	</footer>
 </body>
+<script src="javascript/tabuada.js"></script>
 </html>

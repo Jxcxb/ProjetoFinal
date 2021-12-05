@@ -4,17 +4,78 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jogo das centenas</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<nav>
-		<a href="#">Jacob Costa</a>
+		<a href="index.html">Jacob Costa</a>
 		<ul>
-			<li><a href="#sobre">Sobre</a></li>
-			<li><a href="#jogos">Jogos</a></li>
-			<li><a href="#tabuada">Jogo da tabuada</a></li>
-			<li><a href="#centenas">Jogo das centenas</a></li>
+			<li><a href="index.html#jogos">Jogos</a></li>
+			<li><a href="tabuada.html">Jogo da tabuada</a></li>
+			<li><a href="centenas.html">Jogo das centenas</a></li>
 		</ul>
 	</nav>
+	<section id="cabeçalho">
+		<h2>Brincando com as centenas</h2>
+			
+	
+	<table id="tabela">
+		<tr class="titulos">
+			<th>Números</th>
+			<th>Centenas</th>
+			<th>Dezenas</th>
+			<th>Unidades</th>
+			<th>Resultado</th>
+		</tr>
+		<tr>
+			<th class="containerUm"></th>
+			<th>I I</th>
+			<th>I I I I</th>
+			<th>I I I I I I I I I</th>
+			<th id="resultado1"></th>
+		</tr>
+		<tr>
+			<th class="containerDois"></th>
+			<th>I I I</th>
+			<th>I I I I I</th>
+			<th>I I I I I</th>
+			<th id="resultado2"></th>
+		</tr>
 
+		<tr>
+			<th class="containerTres"></th>
+			<th>I</th>
+			<th>I I I</th>
+			<th>I I I I I I</th>
+			<th id="resultado3"></th>
+		</tr>
+
+		<tr>
+			<th class="containerQuatro"></th>
+			<th>I I I I</th>
+			<th>I</th>
+			<th>I I I I I I I</th>
+			<th id="resultado4"></th>
+		</tr>
+	</table>
+	</section>
+	<section id="respostas">
+		<h3>Arraste os números para sua respectiva célula</h3>
+		<div draggable="true" id="opção136">136</div>
+		<div draggable="true" id="opção417">417</div>
+		<div draggable="true" id="opção249">249</div>		
+		<div draggable="true" id="opção355">355</div>	
+	</section>
+
+	<footer>
+		<a href="#cabeçalho">Voltar ao topo</a>
+		<p>Desenvolvido por Jacob Costa Silva -  2021</p>
+
+	</footer>	
 </body>
+<script src="javascript/centenas.js"></script>
 </html>
