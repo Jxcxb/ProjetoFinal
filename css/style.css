@@ -130,7 +130,35 @@ header p{
 	flex-wrap: wrap;
 	margin: 10px;
 }
-/* Fiz sozinho, tabela */
+
+#respostas{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 800px;
+	color: #000000;
+	text-align: center;
+	align-items: center;
+}
+
+#respostas div{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 10px;
+	color: #000000;
+	background-color: #42b25f;
+	text-align: center;
+	align-items: center;
+}
+/* */
+
+#respostas h3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 table{
 	display: flex;
@@ -153,21 +181,6 @@ td, th {
 	border: 1px solid #dddddd;
   	text-align: center;
   	padding: 8px;
-}
-
-#respostas div{
-	padding: 13px;
-	color: black;
-	background-color: green;
-	text-align: center;
-	margin-top: 30px;
-}
-/* */
-
-#respostas h3{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 #sobre{
@@ -291,6 +304,14 @@ footer a:hover{
 		max-width: 1000px;
 		flex: 1;
 	}
+	#respostas div{
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1000px;
+		min-height: 60px;
+		flex: 1;
+	}
+
 
 	#respostas h3{
 		text-align: center;
