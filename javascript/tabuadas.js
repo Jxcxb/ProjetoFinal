@@ -1,77 +1,37 @@
 let valor = 0;
+let icones = [icone1, icone2, icone3, icone4, icone5, icone6, icone7,icone8];
+let resultados = [resultadoTabuada1, resultadoTabuada2, resultadoTabuada3, resultadoTabuada4, resultadoTabuada5, resultadoTabuada6, resultadoTabuada7, resultadoTabuada8];
 rato.onclick = function() {
 	let valor = 1;
-	document.getElementById('icone1').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada1').innerHTML = (valor * 2);
-	document.getElementById('icone2').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada2').innerHTML = (valor * 3);
-	document.getElementById('icone3').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada3').innerHTML = (valor * 4);
-	document.getElementById('icone4').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada4').innerHTML = (valor * 5);
-	document.getElementById('icone5').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada5').innerHTML = (valor * 6);
-	document.getElementById('icone6').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada6').innerHTML = (valor * 7);
-	document.getElementById('icone7').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada7').innerHTML = (valor * 8);
-	document.getElementById('icone8').innerHTML = "Rato";
-	document.getElementById('resultadoTabuada8').innerHTML = (valor * 9);
+	for (var i = 0; i < 8; i++) {
+		console.log('i: '+i)
+		icones[i].innerHTML = "Rato";
+		resultados[i].innerHTML = valor * (i+2);
+	}
 }
+
 cachorro.onclick = function() {
 	let valor = 2;
-	document.getElementById('icone1').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada1').innerHTML = (valor * 2);
-	document.getElementById('icone2').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada2').innerHTML = (valor * 3);
-	document.getElementById('icone3').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada3').innerHTML = (valor * 4);
-	document.getElementById('icone4').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada4').innerHTML = (valor * 5);
-	document.getElementById('icone5').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada5').innerHTML = (valor * 6);
-	document.getElementById('icone6').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada6').innerHTML = (valor * 7);
-	document.getElementById('icone7').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada7').innerHTML = (valor * 8);
-	document.getElementById('icone8').innerHTML = "Cachorro";
-	document.getElementById('resultadoTabuada8').innerHTML = (valor * 9);
+	for (var i = 0; i < 8; i++) {
+		console.log('i: '+i)
+		icones[i].innerHTML = "Cachorro";
+		resultados[i].innerHTML = valor * (i+2);
+	}
 }
+
 borboleta.onclick = function() {
 	let valor = 3;
-	document.getElementById('icone1').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada1').innerHTML = (valor * 2);
-	document.getElementById('icone2').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada2').innerHTML = (valor * 3);
-	document.getElementById('icone3').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada3').innerHTML = (valor * 4);
-	document.getElementById('icone4').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada4').innerHTML = (valor * 5);
-	document.getElementById('icone5').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada5').innerHTML = (valor * 6);
-	document.getElementById('icone6').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada6').innerHTML = (valor * 7);
-	document.getElementById('icone7').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada7').innerHTML = (valor * 8);
-	document.getElementById('icone8').innerHTML = "Borboleta";
-	document.getElementById('resultadoTabuada8').innerHTML = (valor * 9);
+	for (var i = 0; i < 8; i++) {
+		console.log('i: '+i)
+		icones[i].innerHTML = "Borboleta";
+		resultados[i].innerHTML = valor * (i+2);
+	}
 }
 pato.onclick = function() {
 	let valor = 4;
-	document.getElementById('icone1').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada1').innerHTML = (valor * 2);
-	document.getElementById('icone2').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada2').innerHTML = (valor * 3);
-	document.getElementById('icone3').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada3').innerHTML = (valor * 4);
-	document.getElementById('icone4').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada4').innerHTML = (valor * 5);
-	document.getElementById('icone5').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada5').innerHTML = (valor * 6);
-	document.getElementById('icone6').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada6').innerHTML = (valor * 7);
-	document.getElementById('icone7').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada7').innerHTML = (valor * 8);
-	document.getElementById('icone8').innerHTML = "Pato";
-	document.getElementById('resultadoTabuada8').innerHTML = (valor * 9);
+	for (var i = 0; i < 8; i++) {
+		console.log('i: '+i)
+		icones[i].innerHTML = "Pato";
+		resultados[i].innerHTML = valor * (i+2);
+	}
 }

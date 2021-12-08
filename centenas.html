@@ -21,58 +21,88 @@
 	</nav>
 	<section id="cabeçalho">
 		<h2>Brincando com as centenas</h2>
-	<table id="tabela">
+		<img src="img/numeros.png" alt="Algarismos numéricos coloridos">
+		<p>Arraste os valores para suas respectivas células</p>
+	</section>
+	<section class="cabeçalho" id="respostas">
+		<div class="botaoTabuada" id="opt136" draggable="true" >136</div>
+		<div class="botaoTabuada" id="opt532" draggable="true" >532</div>
+		<div class="botaoTabuada" id="opt417" draggable="true" >417</div>
+		<div class="botaoTabuada" id="opt249" draggable="true" >249</div>
+		<div class="botaoTabuada" id="opt624" draggable="true">624</div>
+		<div class="botaoTabuada" id="opt223" draggable="true" >223</div>		
+		<div class="botaoTabuada" id="opt355" draggable="true">355</div>
+		<div class="botaoTabuada" id="opt161" draggable="true">161</div>		
+		
+	</section>
+
+
+
+	<section>
+	<div class="content">
+	<table class="rTable" id="tabela">
 		<tr class="titulos">
 			<th>Números</th>
 			<th>Centenas</th>
 			<th>Dezenas</th>
 			<th>Unidades</th>
-			<th>Resultado</th>
 		</tr>
 		<tr>
-			<th class="containerUm"></th>
+			<th class="container" id="containerUm">249</th>
 			<th>I I</th>
 			<th>I I I I</th>
 			<th>I I I I I I I I I</th>
-			<th id="resultado1"></th>
 		</tr>
 		<tr>
-			<th class="containerDois"></th>
+			<th class="container" id="containerDois">355</th>
 			<th>I I I</th>
 			<th>I I I I I</th>
 			<th>I I I I I</th>
-			<th id="resultado2"></th>
 		</tr>
 
 		<tr>
-			<th class="containerTres"></th>
+			<th class="container" id="containerTres">136</th>
 			<th>I</th>
 			<th>I I I</th>
 			<th>I I I I I I</th>
-			<th id="resultado3"></th>
 		</tr>
-
 		<tr>
-			<th class="containerQuatro"></th>
+			<th class="container" id="containerQuatro">417</th>
 			<th>I I I I</th>
 			<th>I</th>
 			<th>I I I I I I I</th>
-			<th id="resultado4"></th>
+		</tr>
+		<tr>
+			<th class="container" id="containerCinco">223</th>
+			<th>I I</th>
+			<th>I I</th>
+			<th>I I I</th>
+		</tr>
+		<tr>
+			<th class="container" id="containerSeis">532</th>
+			<th>I I I I I</th>
+			<th>I I I</th>
+			<th>I I</th>
+		</tr>
+		<tr>
+			<th class="container" id="containerSete">161</th>
+			<th>I</th>
+			<th>I I I I I I</th>
+			<th>I</th>
+		</tr>
+		<tr>
+			<th class="container" id="containerOito">624</th>
+			<th>I I I I I I</th>
+			<th>I I</th>
+			<th>I I I I</th>
 		</tr>
 	</table>
+	</div>
 	</section>
-	<section class="cabeçalho" id="respostas">
-		<h3>Arraste os números para sua respectiva célula</h3>
-		<div class="botaoTabuada" draggable="true" id="opção136">136</div>
-		<div class="botaoTabuada" draggable="true" id="opção417">417</div>
-		<div class="botaoTabuada" draggable="true" id="opção249">249</div>		
-		<div class="botaoTabuada" draggable="true" id="opção355">355</div>	
-	</section>
-
+	
 	<footer>
 		<a href="#cabeçalho">Voltar ao topo</a>
 		<p>Desenvolvido por Jacob Costa Silva -  2021</p>
-
 	</footer>	
 </body>
 <script src="javascript/centenas.js"></script>
